@@ -1,9 +1,11 @@
-<script setup lang="ts">
+<script setup >
 import Home from './components/Home.vue';
 </script>
 
 <template>
-  <Home></Home>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped>
