@@ -108,7 +108,7 @@ const heads = ref([
   transition: width 0.3s ease; 
 }
 
-
+/* เพิ่มแอนิเมชันเมื่อ hover */
 .nav-link:hover::after {
   width: 100%; 
 }
